@@ -1,0 +1,13 @@
+require "minitest/autorun"
+require File.expand_path(File.dirname(__FILE__) + '/../src/merge_sort')
+
+class MergeSortTest < Minitest::Test
+  def setup
+    
+  end
+
+  def test_merge_sort
+    puts 'welcome to merge sort'
+    MergeSort.new
+  end
+end
